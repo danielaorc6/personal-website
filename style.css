@@ -1,0 +1,111 @@
+body{
+  background-color: white;
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    border-radius: 25px;
+    box-shadow: -10px 12px 8px #615c5c;
+    margin: 0px 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262F34;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: floralwhite;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font: 19px Trajan, serif;
+  }
+
+li a:hover {
+    background-color: #F1D3BC;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.education {
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px grey;
+  background-color: #f1d3bc;
+  color: darkslategray;
+  margin: 4% 3% 0% 7%;
+  padding: 16px;
+  border: 3px solid #f34a4a;
+}
+
+.education h3 {
+  line-height: 0px;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+}
+
+.description{
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px grey;
+  background-color: #f1d3bc;
+  color: darkslategray;
+  margin: 4% 8% 4% 5%;
+  padding: 16px;
+  border: 3px solid #f34a4a;
+}
+
+p {
+  text-align: center;
+  font: 19px Trajan, serif;
+}
+
+
+.heading {
+  margin: 0% 28%;
+  text-align: center;
+  font-style: oblique;
+}
+
+/* For mobile phones: */
+@media all and (max-width: 769px) {
+  li a {
+      padding: 9px 10px;
+      font: 12px Trajan, serif;
+    }
+
+    .column2 {
+      float: none;
+      clear: both;
+      margin-left: 2%;
+    }
+
+    .description .education {
+      border: 1.5px solid #f34a4a;
+      margin: 2% 11.5% 0% 11.5%;
+    }
+
+    p{
+      font: 12px Trajan, serif;
+    }
+
+   .education h3 {
+     font: bold 12px Trajan, serif;
+   }
+   img {
+         margin: -10px -10px;
+         max-width: 50%;
+         max-height: 50%;
+    }
+}

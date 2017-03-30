@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262F34;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: floralwhite;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font: 19px Trajan, serif;
+  }
+
+li a:hover {
+    background-color: #F1D3BC;
+}
+
+h3 {
+  text-align: center;
+  background: none;
+  margin: 0;
+  padding: 0px;
+  font: 20px Trajan, serif;
+  color: darkslategray;
+  border-width: 2px 0;
+}
+
+
+.sketches {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space:nowrap;
+}
+
+img {
+      margin: -10px -10px;
+      max-width: 258px;
+}
+
+/* For mobile phones: */
+@media all and (max-width: 769px) {
+  img {
+        margin: -10px -10px;
+        max-width: 25%;
+        max-height: 25%;
+  }
+  li a {
+      padding: 9px 10px;
+      font: 12px Trajan, serif;
+}
+  h3{
+    font: 14px Trajan, serif;
+  }
+}
