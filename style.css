@@ -78,6 +78,10 @@ p {
   font-style: oblique;
 }
 
+.social-media {
+  
+}
+
 /* For mobile phones: */
 @media all and (max-width: 769px) {
   li a {
