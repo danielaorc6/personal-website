@@ -26,9 +26,25 @@ li a {
     font: 19px Trajan, serif;
   }
 
-li a:hover {
+.social-media a:hover, li a:hover {
     background-color: #F1D3BC;
 }
+
+.menu {
+    width: 50%;
+}
+.social-media {
+    width: 50%;
+    float: right;
+    padding-top: 0.5%;
+    text-align: right;
+}
+
+.social-media a{
+    margin: 0%;
+    padding: 3% 1%;
+}
+
 
 .column1 {
   float: left;
@@ -42,7 +58,7 @@ li a:hover {
   box-shadow: 10px 10px 5px grey;
   background-color: #f1d3bc;
   color: darkslategray;
-  margin: 4% 3% 0% 7%;
+  margin: 2.5% 3% 0% 7%;
   padding: 16px;
   border: 3px solid #f34a4a;
 }
@@ -78,9 +94,6 @@ p {
   font-style: oblique;
 }
 
-.social-media {
-  
-}
 
 /* For mobile phones: */
 @media all and (max-width: 769px) {
