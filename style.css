@@ -46,6 +46,12 @@ li a {
 }
 
 
+.barney {
+  background-image: url("barney.jpg");
+  width: 100%;
+}
+
+
 .column1 {
   float: left;
   width: 50%;

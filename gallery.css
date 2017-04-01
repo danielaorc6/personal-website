@@ -56,9 +56,12 @@ h3 {
 
 
 .sketches {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space:nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  border-radius: 108px;
+  width: 95%;
+  margin: 0% 2%;
 }
 
 img {
