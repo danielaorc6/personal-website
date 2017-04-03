@@ -1,0 +1,16 @@
+body {
+  height: 100%;
+  margin: 0%;
+}
+
+.logo {
+  height: 50%;
+  border: 1px solid black;
+}
+
+.barney {
+  background-image: url("barney.jpg");
+  width: 100%;
+  height: 50%;
+  border: 1px solid black;
+}
