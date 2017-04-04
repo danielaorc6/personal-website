@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  height: 100%;
 }
 
 ul {
@@ -43,4 +44,19 @@ li a {
     margin: 0%;
     color: floralwhite;
     padding: 3% 1%;
+}
+
+.social-media a:last-child {
+  padding-right: 17px;
+}
+
+
+.social-media {
+  a {
+
+  }
+
+  li {
+
+  }
 }
