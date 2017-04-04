@@ -72,6 +72,10 @@ p {
    .education h3 {
      font: bold 12px Trajan, serif;
    }
+
+   .education i {
+     font-size: 12px;
+   }
    img {
          margin: -10px -10px;
          max-width: 50%;

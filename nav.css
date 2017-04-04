@@ -50,13 +50,17 @@ li a {
   padding-right: 17px;
 }
 
+@media all and (max-width: 769px) {
+  li a {
+  font: 14px Trajan, serif;
+ }
 
-.social-media {
-  a {
+ .social-media a{
+   padding: 6% 1%;
+ }
 
-  }
-
-  li {
-
-  }
+ .social-media i {
+    font-size: 1.5em;
+    margin-top: 2%;
+}
 }
