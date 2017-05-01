@@ -2,30 +2,69 @@ body {
   margin: 0%;
 }
 
-.barney {
-  text-align: center;
+#images-section {
+  margin: 2% 6%;
+}
+
+.col-md-4 {
+  padding: 0;
+}
+
+ .pic1 {
+  background-color: white;
+  height: 200px;
+}
+
+.block1 {
+  background: url("danielaname.jpg");
+  height: 200px;
+}
+
+.block11 {
+  background-color: black;
+  height: 200px;
 }
 
 
-.barney img{
-  border-radius: 52%;
-  width: 38%;
-  margin: 2% 31% 0% 31%;
-  height: 547px;
-  box-shadow: 37px 8px 22px #615c5c;
+
+.pic2 {
+  background-color: white;
+  height: 245px;
+  padding: 0;
 }
 
-p {
-  font: bold 22px Georgia, serif;
+.colombia {
+  height: 245px;
+  width: 640px;
 }
 
-@media all and (max-width: 769px) {
-  .barney img {
-    height: 213px;
-  }
-
-  p {
-    font: bold 14px Georgia, serif;
+.pic3 {
+  background-color: white;
+  padding: 0;
+  height: 220px;
 }
 
+.block2 {
+  background: url(myFace.jpg);
+  height: 220px;
+}
+
+.block22 {
+  background-color: black;
+  height: 220px;
+}
+
+.block3 {
+  background: url(facingright.jpg);
+  height: 220px;
+}
+
+.block33 {
+  background-color: black;
+  height: 220px;
+}
+
+.cat {
+  width: 337px;
+  height: 220px;
 }
